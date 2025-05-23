@@ -1,45 +1,53 @@
+/* styles.css */
 h1 {
   text-align: center;
 }
 
 body {
   font-family: Arial, sans-serif;
-  line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: rgb(116, 132, 147);
+  background-color: rgb(123, 140, 155);
 }
+
 header {
-  background: rgb(123, 140, 155);
-  color: #fff;
-  padding: 10px 20px;
+  background-color: #2c3e50;
+  padding: 20px;
   text-align: center;
 }
-nav {
-  margin: 10px 0;
-  text-align: center;
+
+.site-title {
+  margin: 0;
+  font-size: 2rem;
 }
-nav a {
+
+.main-nav {
+  margin-top: 10px;
+}
+
+.nav-link {
   text-decoration: none;
-  color: rgb(123, 140, 155);
-  margin: 0 10px;
-  padding: 5px 10px;
-  border: 1px solid rgb(123, 140, 155);
-  border-radius: 5px;
-  background-color: #fff;
-}
-nav a:hover {
-  background-color: #333;
   color: #fff;
+  background-color: rgb(123, 140, 155);
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
 }
+
+.nav-link:hover {
+  background-color: #1abc9c;
+}
+
 main {
   padding: 20px;
-}
-footer {
   text-align: center;
-  padding: 10px 0;
-  background: #333;
-  color: #fff;
+}
+
+footer {
+  background-color: #2c3e50;
+  text-align: center;
+  padding: 10px;
   position: fixed;
   bottom: 0;
   width: 100%;
