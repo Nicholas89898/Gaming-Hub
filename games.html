@@ -5,6 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gaming Hub</title>
     <link rel="stylesheet" href="games.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: linear-gradient(135deg, #232526 0%, #414345 100%);
+        color: #f3f3f3;
+        font-family: "Roboto", Arial, sans-serif;
+        margin: 0;
+        min-height: 100vh;
+      }
+
+      header {
+        background: #181a1b;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        padding: 0.5rem 0;
+      }
+
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 1.5rem;
+      }
+
+      nav h1 {
+        font-family: "Orbitron", Arial, sans-serif;
+        font-size: 2rem;
+        color: #00ffd0;
+        letter-spacing: 2px;
+        margin: 0;
+      }
+
+      .nav-link {
+        color: #f3f3f3;
+        text-decoration: none;
+        margin-left: 1.5rem;
+        font-weight: 700;
+        transition: color 0.2s;
+        font-family: "Orbitron", Arial, sans-serif;
+      }
+      .nav-link:hover {
+        color: #00ffd0;
+      }
+
+      main {
+        max-width: 900px;
+        margin: 2rem auto 2rem auto;
+        background: rgba(30, 32, 34, 0.97);
+        border-radius: 18px;
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.25);
+        padding: 2.5rem 2rem 2rem 2rem;
+      }
+
+      section h2 {
+        font-family: "Orbitron", Arial, sans-serif;
+        color: #00ffd0;
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+        letter-spacing: 1px;
+        text-shadow: 0 2px 8px #00ffd055;
+      }
+
+      footer {
+        background: #181a1b;
+        color: #aaa;
+        text-align: center;
+        padding: 1.2rem 0 1rem 0;
+        font-size: 1rem;
+        margin-top: 2rem;
+        border-top: 1px solid #23272e;
+      }
+
+      @media (max-width: 600px) {
+        main {
+          padding: 1rem 0.5rem;
+        }
+        nav {
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+        section h2 {
+          font-size: 1.3rem;
+        }
+      }
+    </style>
   </head>
   <body>
     <header>
